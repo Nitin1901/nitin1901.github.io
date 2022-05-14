@@ -1,18 +1,15 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Udgata":
+  - firstname: ["Prof. Siba K", "SK", "Siba Udgata", "Siba K"]
+    url: https://scholar.google.com/citations?user=3Dgm2bQAAAAJ&hl=en
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bondugula":
+  - firstname: ["Rohit Kumar", "RK", "Rohit"]
+    url: https://scholar.google.com/citations?hl=en&user=e3-AdYgAAAAJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bommi":
+  - firstname: ["Sarath Kumar", "SK", "Sarath"]
+    url: https://www.researchgate.net/profile/Sarath-Bommi
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Tiramdas": 
+  - firstname: ["Yasaswini"]
+    url: https://yashi1011.github.io
