@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: SCIS Forum
+description: A common platform for UoH
+img: assets/img/uohyd.png
 importance: 1
 category: work
 ---

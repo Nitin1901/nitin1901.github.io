@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: Incoming <a href='https://www.mitacs.ca/en'>Mitacs Intern</a>. Ex - Research Intern at <a href='https://www.ucd.ie'>UCD</a>, <a href='https://uohyd.ac.in'>UoH</a>.
@@ -19,5 +19,17 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a 4<sup>th</sup> year Integrated Masters student at the [University of Hyderabad](https://uohyd.ac.in) majoring in `Computer Science`.
+
+My research interests include:
+* Machine Learning
+* Deep Learning
+* Computer Vision
+* Reinforcement Learning (*I am new to this*)
+
+I started my research career in 2020 by collaborating with Professors and PhD scholars.
+I intend to work `ETHICALLY` and with `INTEGRITY`. 
+
+> WHEN EVERYONE'S LIKE IMPOSSIBLE... \\
+> SHOW THEM THAT EVEN THE WORD SAYS I'M POSSIBLE... 
 
 

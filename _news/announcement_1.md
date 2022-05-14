@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-05-14
 inline: true
 ---
 
-A simple inline announcement.
+I will be travelling to Clagary, CA 🇨🇦 on June 11, 2022.

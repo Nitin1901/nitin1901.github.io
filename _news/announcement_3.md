@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-02-16
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Submitted a paper at `ICIP-2022` as a part of my Research Internship at Dublin, IE 🇮🇪.
