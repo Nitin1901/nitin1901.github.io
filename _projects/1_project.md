@@ -2,7 +2,7 @@
 layout: page
 title: SCIS Forum
 description: A common platform for UoH
-img: assets/img/uohyd.png
+img: assets/img/uohyd_logo.png
 importance: 1
 category: work
 ---
