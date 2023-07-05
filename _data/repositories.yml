@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nitin-bommi
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - nitin-bommi/cdt
+  - nitin-bommi/scis-forum
+  - nitin-bommi/machine-learning-interface
+  - nitin-bommi/RDP
