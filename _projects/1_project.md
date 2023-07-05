@@ -1,80 +1,61 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: SCIS Forum
+description: A common platform for UoH
+img: assets/img/uohyd_logo.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+GitHub - [SCIS Form](https://github.com/nitin-bommi/scis-forum)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Youtube - [Video](https://youtu.be/x0Ox5zY8wUA) 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I, along with my 3 amazing teammates [Yasaswini Tiramdas](https://yashi1011.github.io/), Roopa and Amruta have created this platform for all the university students.
+
+## Back story
+
+The pandemic struct and we moved from in-class to online classes. All the test, the marks, any notifications or even sharing tips were made online. Though there are applications that support these features, we had to use multiple apps to cover up for the diverse tasks. 
+
+## Development
+
+We then gave a thought of developing an integrated common platform for all the university students where they can:
+* Upload posts (can vary from job openings to any important notifications) - *twitter*.
+* Talk to individuals - *whatsapp*.
+* Check any deadlines or post any assignment with deadlines - *calendar*.
+
+These being the primary features, we embedded AI techniques to enhance them. 
+* A user can login using both password and `face`.
+* When a user creates a post, before storing it, we performed `profanity checks` to clear any unparliamentary words. 
+
+## Success of the project
+
+After several tests, we presented in infront of our board members! They were skeptic about the ethicality of capturing faces. But the model we deployed uses `one-shot learning` that needs only 1 image to identify the person. However, this comes at the cost of more false-negatives (a person may not be identified as the right one). This is an active area of research and we are keeping ourselves and the application up-to-date.
+
+The board suggested a few tests and they were happy about the application! We then deployed it in our university's localhost.
+
+## Tech stack
+
+This project was a combination of our skills from web development, networking, artificial intelligence and software development. We followed `agile` approach where we added new features (*use cases*) in interative manner. Of course, we couldn't leave the use-case diagrams, the sequence diagrams, etc.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/scis_forum_usecase.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The application's use case diagram.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+We used:
+* `Python` as our primary programming language.
+* `Flask` framework to develop the backend.
+* `Javascript` to add calendar feature and to make the website a bit-more interactive.
+* `SQLite` database as supported by Flask. 
+* `scikit-learn` to build a model that checks the profanity.
+* `face-detection` to authenticate users by face.
+* `Jinja` for frontend.
 
+## Contribution
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+This application is not limited to UoH. If you feel your institute needs one, follow the steps given in our [github repository](https://github.com/nitin-bommi/scis-forum) page.
